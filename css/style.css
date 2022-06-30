@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	background-image: url(img/fon.png);
+}
+canvas {
+	display: block;
+	margin: 0 auto;
+}
+
+#end button:hover {
+	background: #2e983f;
+}
+#end button {
+	padding: 20px ;
+	width: 75%;
+	font-size: 24px;
+	font-family: arial black;
+	background: #3fc07f;
+	border-radius: 50px;
+	border: 4px solid #336184;
+	cursor: pointer;
+	margin: 40px;
+	outline: none;
+	color: #FFF;
+	text-transform: uppercase;
+}
+ #end {
+ 	background: #FFF;
+	border: 5px solid #000000;
+	box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 15px rgb(88, 147, 88), 0 0 25px rgb(45, 202, 121);
+ 	width: 400px;
+ 	height: 320px;
+ 	border-radius: 20px;
+ 	text-align: center;
+ 	padding: 2px 20px;
+ 	margin: 80px auto;
+ 	font-family: arial black;
+ 	font-size: 24px;
+}
+ 
+#start button:hover {
+	background: #2e983f;
+}
+#start button {
+	padding: 20px ;
+	width: 70%;
+ 	height: 90px;
+	font-size: 24px;
+	font-family: arial black;
+	background: #3fc07f;
+	border-radius: 50px;
+	border: 4px solid #336184;
+	cursor: pointer;
+	margin: 4px;
+	outline: none;
+	color: #FFF;
+	text-transform: uppercase;
+}
+ #start {
+	
+ 	background: #FFF;
+	border: 5px solid #000000;
+	box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 15px rgb(88, 147, 88), 0 0 25px rgb(45, 202, 121);
+ 	width: 400px;
+ 	height: 320px;
+ 	border-radius: 20px;
+ 	text-align: center;
+ 	padding: 2px 20px;
+ 	margin: 80px auto;
+ 	font-family: arial black;
+ 	font-size: 24px;
+}

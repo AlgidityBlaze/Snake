@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Змійка</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="database" href="D:\Learn\IT\XAMPP\htdocs\chat.local\index.php">
+
+  <style>
+    BODY {
+    background: url(img/fon.png)
+  }
+  </style>
+
+</head>
+
+<body>
+
+
+  <div id="start" style="display: block;">
+    <h2>Введи ім'я щоб почати</h2>
+
+  <ul>
+
+    <label for="name">Ім'я:</label>
+    <input type="text" id="name" name="NickName">
+
+</ul>
+    <button id="startbut">Почати</button>
+  </div>
+
+
+  <div id="end" style="display: none;">
+    <h2>Поразка</h2>
+    <h3>  Набрано:  <span> 30 </span> очок</h3>
+
+    <button id="restart">Заново</button>
+  </div>
+
+  <div id="gameW" style="display: none;">
+  <canvas id="game" width="608" height="608" ></canvas>
+ 
+    <div id="moveButtons" >
+      <button id="upBtn"> UP </button>
+      <button id="leftBtn"> LEFT </button>
+      <div id="LR">
+      <button id="downBtn"> DOWN </button>
+      <button id="rightBtn"> RIGHT </button>
+      </div>
+
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+  <script type="text/javascript" src="js/script.js"> </script>
+
+  
+ 
+</body>
+</html>
